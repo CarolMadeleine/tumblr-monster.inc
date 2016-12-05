@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+ background-color: #2C394C;
+}
+
+/*SECTIONGIF*/
+.imageGif{
+  margin-top: -4px;
+}
+.b1{
+  width: 20%;
+  position: relative;
+  top: -640px;
+}
+.b2{
+  width: 28%;
+  margin-left: 16px;
+  float: left;
+}
+.comenzar{
+  padding: 20px 40px;
+  position: relative;
+  top: -180px;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+.comenzar:hover{
+  background-color: #5A561C;
+}
+
+/*TEXTO DE ICONOS*/
+
+.iconos{
+	text-align: center;
+	color: white;
+}
+.iconTumblr{
+	width: 36%;
+	cursor: pointer;
+}
+.Tbl{
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*BOX*/
+.contenedor{
+  display: inherit;
+}
+.imagenPerfil{
+	width: 10%;
+}
+.cajas{
+  display: inline-block;
+	padding: 6% 12%;
+  word-wrap: break-word;
+  height: 100vh;
+}
+.box{
+	background-color: white;
+  display: inline-block;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: block;
+}
+.nombreCompleto{
+	font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  text-align: left;
+}
+.textArea{
+	padding: 10px;
+	font-size: 15px;
+  width: 100%;
+}
+.tituloBox{
+	padding: 10px;
+	font-size: 36px;
+  width: 100%;
+}
+
+/*botones*/
+.cerrar{
+	float: left;
+	cursor: pointer;
+  padding: 5px 7px;
+  border-radius: 2px;
+  border: 1px solid #9da6af;
+  background-color: #9da6af;
+  color: white;
+}
+.publicar{
+	float: right;
+	cursor: pointer;
+	border-color: #529ecc;
+  background-color: #529ecc;
+  border-radius: 2px;
+  padding: 5px 7px;
+  color: hsla(0,0%,100%,.5);
+}
+
+/*ENLACE*/
+.enlaceURL{
+	padding: 51px 18px;
+  background: #f2f2f2;
+  border-top: 2px dashed #cfcfcf;
+  border-bottom: 2px dashed #cfcfcf;
+  margin: 0 -20px;
+  width: 108%
+}
+
+/*SALIDA*/
+.mensajeTitulo{
+	padding: 22px 100px;
+	font-size: 32px;
+	color: #36465D;
+}
+.mensajeTextArea{
+	padding: 20px 100px;
+	font-size: 18px;
+	color: gray;
+}
+.hora{
+  color: #9599AD;
+  float: right;
+}
+
+/*MENSAJE NOTAS*/
+.mensajeNotas{
+  padding: 20px 100px;
+  font-size: 18px;
+  color: white;
+}
+.horaNotas{
+  color: white;
+  float: right;
+}
+.nombreCompletoNotas{
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
